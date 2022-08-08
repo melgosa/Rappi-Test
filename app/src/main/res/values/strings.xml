@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="img_descr_imagen_movie">Poster de película</string>
+
+    <!--Detalle de película-->
+    <string name="label_watch_trailer">Ver trailer</string>
+    <string name="label_sinopsis">Sinopsis</string>
+    <!--Movie Fragment-->
+    <string name="label_upcoming_movies">Próximos estrenos</string>
+    <string name="label_top_rated">Tendencia</string>
+    <string name="label_recommended_for_you">Recomendados para ti</string>
+    <string name="label_language">En Inglés</string>
+    <string name="label_launch_year">Lanzadas en 2022</string>
+    <!--Error dialog-->
+    <string name="label_lo_sentimos">¡Lo sentimos!</string>
+    <string name="label_error">Ocurrió un error.\nRevisa por tu conexión por favor</string>
+    <string name="label_try_again">Intentar nuevamente</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_ok">Ok</string>
+    <string name="label_no_trailers">No existen trailers en Youtube para la película seleccionada</string>
+
+</resources>

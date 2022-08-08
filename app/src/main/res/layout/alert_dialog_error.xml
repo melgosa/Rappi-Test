@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:id="@+id/bg_all_elements_dialog"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ade_ivError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:src="@drawable/ic_error_page" />
+
+        <TextView
+            android:id="@+id/ade_tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center"
+            android:text="@string/label_lo_sentimos"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ade_ivError"
+            />
+
+        <TextView
+            android:id="@+id/ade_tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="@string/label_error"
+            android:textColor="@color/gray90"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ade_btn_retry"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/poppins"
+        android:padding="10dp"
+        android:text="@string/label_try_again"
+        android:textSize="16sp"
+        android:backgroundTint="@color/red40"
+        app:layout_constraintBottom_toTopOf="@+id/ade_btn_cancel" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ade_btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins"
+        android:padding="10dp"
+        android:text="@string/label_cancel"
+        android:textColor="@color/red40"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:strokeColor="@color/red40"
+        app:strokeWidth="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
