@@ -1,8 +1,33 @@
 # Examen-Rappi-Movies by Marcos Melgosa Vázquez
 
-##Examen para desarrollador Sr. de la empresa Rappi en Android Kotlin.
+## Examen para desarrollador Sr. de la empresa Rappi en Android Kotlin.
 
-Para esta prueba se solicita lo siguiente:
+Este proyecto fue realizado con:
+
+**Clean Arquitecture**
+
+**Patron de diseño MVVM**
+
+**Pruebas Unitarias con Junit**
+
+**Room database**
+
+**Coroutines**
+
+**Retrofit**
+
+**ViewBinding**
+
+**RecyclerView**
+
+**Animaciones y transiciones**
+
+**Fragments**
+
+**Buenas practicas (Documentación, comentarios, estilos (Styles), componentes genéricos, etc.)**
+
+
+Para esta prueba se solicita responder las siguientes preguntas:
 
 **¿En qué consiste el principio de responsabilidad única? ¿Cuál es su propósito?**
 
